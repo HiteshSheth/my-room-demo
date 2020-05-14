@@ -21,6 +21,7 @@ class AddActivity : AppCompatActivity() {
             AppDatabase::class.java, "myDb"
         ).allowMainThreadQueries().build()
 
+        setClicks()
     }
 
     fun setClicks(){
