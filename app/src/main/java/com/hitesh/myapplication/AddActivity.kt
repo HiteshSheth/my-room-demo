@@ -12,8 +12,6 @@ class AddActivity : AppCompatActivity() {
 
     var db:AppDatabase? = null
 
-    //This is demo
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add)
@@ -24,7 +22,6 @@ class AddActivity : AppCompatActivity() {
         ).allowMainThreadQueries().build()
 
         setClicks()
-
     }
 
     fun setClicks(){
